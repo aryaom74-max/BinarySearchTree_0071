@@ -141,4 +141,9 @@ int main()
         cout << "5. exit" << endl;
         cout << "Enter your choice: (1-5) ";
         
+        char ch;
+        cin >> ch;
+
+        cout << endl;
+
         
