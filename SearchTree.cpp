@@ -61,4 +61,8 @@ class BinaryTree
     //this function searches the current node of the spicfied node
     //as well as the current node of its parent
     void search (string element, Node *&parent, Node *&currentNode)
-    
+    {
+        currentNode = ROOT;
+        parent = NULL;
+
+        
