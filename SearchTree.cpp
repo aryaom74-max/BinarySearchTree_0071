@@ -28,4 +28,6 @@ class BinaryTree
         ROOT = NULL; //initially set the ROOT to null
     }
 
+    //Insert a Node in the binary search tree
+    void insert (string element)
     
