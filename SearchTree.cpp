@@ -48,4 +48,14 @@ class BinaryTree
             return;
         }
 
-        
+        if (element < parent -> info)
+        {
+           parent -> leftchild = newNode; 
+        }
+        else
+        {
+            parent -> righchild = newNode;
+        }
+    }
+
+    
